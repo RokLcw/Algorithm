@@ -18,9 +18,6 @@
     <ClCompile Include="10998.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1008.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1330_두 수 비교하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -31,6 +28,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10869_사칙연산.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1008_A나누기B.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
