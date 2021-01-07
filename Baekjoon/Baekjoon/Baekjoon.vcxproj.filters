@@ -27,10 +27,10 @@
     <ClCompile Include="10430.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2588.c">
+    <ClCompile Include="1330_두 수 비교하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1330_두 수 비교하기.c">
+    <ClCompile Include="2588_곱셈.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
