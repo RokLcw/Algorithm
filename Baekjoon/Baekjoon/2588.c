@@ -3,9 +3,9 @@
 int main()
 {
 	/*
-	1의 자리 -> 472 % 10
-	10의자리 -> (472 % 100) / 10
-	100의 자리 -> 472 / 100
+	units -> 472 % 10
+	tens -> (472 % 100) / 10
+	hundreds -> 472 / 100
 	*/
 	int A, B, tmp1, tmp2, tmp3;
 	int num1, num2, num3, num4;
