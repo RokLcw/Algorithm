@@ -23,6 +23,7 @@
     <ClCompile Include="10430_나머지.c" />
     <ClCompile Include="10869_사칙연산.c" />
     <ClCompile Include="10998_A곱하기B.c" />
+    <ClCompile Include="2588_곱셈.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
