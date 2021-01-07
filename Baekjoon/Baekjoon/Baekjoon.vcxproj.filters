@@ -39,5 +39,8 @@
     <ClCompile Include="14681_사분면 고르기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2884_알람시계.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
