@@ -30,7 +30,7 @@
     <ClCompile Include="2588.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1330.c">
+    <ClCompile Include="1330_두 수 비교하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
