@@ -6,7 +6,7 @@ int main()
 
 	scanf("%d", &num);
 
-	for (int i=0; i<num; i++)
+	for (int i = 0; i < num; i++)
 	{
 		result += (i + 1);
 	}
