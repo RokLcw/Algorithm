@@ -1,3 +1,4 @@
+﻿// 개선한 코드
 #include<stdio.h>
 
 int d(int num)
@@ -24,26 +25,20 @@ int d(int num)
 int main()
 {
 	int arr[10000] = {0, };
-	int arr2[10000] = { 0, };
-	int num = 0, tmp = 0;
+	int num = 0, check = 0;
 
 	for (int i = 0; i < 10000; i++)
 	{
-		arr[i] = d(i);
+		check = d(i);	// 생성자값 check에 저장
+		if (check < 10000)	// 10000 이상을 넘으면 안되므로
+		{
+			arr[check] = 1;	// 생성자값 위치에 1 저장
+		}
 	}
 
 	for (int i = 0; i < 10000; i++)
 	{
-		tmp = 0;
-		for (int j = 0; j < 10000; j++)
-		{
-			if (i == arr[j])
-			{
-				tmp = 1;
-				break;
-			}
-		}
-		if(tmp == 0)
+		if (arr[i] != 1)	// 만약 배열에 1이 없을 경우 셀프 넘버
 			printf("%d\n", i);
 	}
 
